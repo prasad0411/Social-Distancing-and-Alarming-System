@@ -1,5 +1,4 @@
 #include <Adafruit_NeoPixel.h>
-
 // Pin assignments
 int ledPin = 3;
 int ledNo = 12;
@@ -9,7 +8,6 @@ int trigPin = 5;
 int ledred = 10;
 int ledyellow = 11;
 int ledwhite = 9;
-
 // Distance thresholds
 int minDistance = 100;
 int maxDistance = 300;
