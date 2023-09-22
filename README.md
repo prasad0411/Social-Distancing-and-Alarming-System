@@ -1,20 +1,2 @@
-# Social-Distancing-and-Alarming-SystemThe 
-This project uses Arduino to create a real-time distance monitoring system. It employs an ultrasonic sensor to measure object distances and temperature sensors to detect social distancing breaches. NeoPixel LEDs display proximity levels, and a buzzer provides audible alerts.
-
-Key elements include:
-
-Library Inclusion: The code integrates the "Adafruit_NeoPixel.h" library to control NeoPixel LEDs.
-
-Pin Assignments: Pins are assigned for the NeoPixel LED strip, buzzer, ultrasonic sensor, and LEDs of different colors.
-
-Distance Thresholds: Thresholds for distance actions are defined using "minDistance" and "maxDistance" variables.
-
-NeoPixel Strip Initialization: An instance of the Adafruit_NeoPixel class initializes the LED strip.
-
-Setup Function: Pin modes are set, and the NeoPixel strip is initialized.
-
-Loop Function: The core function repeatedly calculates distances, triggers actions, and updates NeoPixel colors.
-
-Distance Calculation: The "calcDistance" function calculates object distances using the ultrasonic sensor.
-
-This system displays red for close proximity, yellow for a moderate distance, and white for a safe distance. Audible alerts are triggered when needed. Overall, it provides a visual and auditory means of enforcing social distancing guidelines.
+# Social-Distancing-and-Alarming-System
+The Social Distancing and Alarming System employs an Arduino-based distance monitoring setup. It incorporates an ultrasonic sensor to measure real-time object distances and temperature sensors for detecting social distancing breaches. NeoPixel LEDs indicate proximity levels through color changes, while a buzzer offers audible alerts. The code integrates the "Adafruit_NeoPixel.h" library and assigns pins for various components. It establishes distance thresholds, initializes NeoPixel LEDs, and sets pin modes. In the loop, it calculates distances, triggers actions based on predefined thresholds, and updates the NeoPixel strip. This system enhances safety by providing immediate visual and auditory feedback for maintaining social distance, aiding in public health efforts.
